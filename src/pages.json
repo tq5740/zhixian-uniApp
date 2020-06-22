@@ -1,0 +1,532 @@
+{
+	"pages": [
+        { //登录首页
+			"path": "pages/login/index"
+		},
+		{ //账号登录
+			"path": "pages/login/phone"
+		},
+		{ //忘记密码
+			"path": "pages/login/getpaw"
+		},
+		{ //注册账号
+			"path": "pages/login/reg"
+		},
+		{ //微信登录 绑定页面
+			"path": "pages/login/wxlogin"
+        },
+		{ //统计
+			"path": "pages/statistics/statistics"
+        },
+		{ //管理
+			"path": "pages/manage/manage"
+		},
+		{ //发现
+			"path": "pages/find/find"
+		},
+		{ //我的
+			"path": "pages/mine/mine"
+		},
+		{ //组织
+			"path": "pages/manage/organization/organization/organization"
+		},
+		{ //组织-编辑
+			"path": "pages/manage/organization/organization/edit"
+		},
+		{ //组织-审核
+			"path": "pages/manage/organization/organization/examine"
+		},
+		{ //认证-编辑
+			"path": "pages/manage/user/auth/edit"
+		},
+		{ //认证-详情、审核
+			"path": "pages/manage/user/auth/detail"
+		},
+		{ //认证-列表
+			"path": "pages/manage/user/auth/auth"
+		},
+		{ //用户-详情
+			"path": "pages/manage/user/user/detail"
+		},
+		{ //用户-编辑
+			"path": "pages/manage/user/user/edit"
+		},
+		{ //用户
+			"path": "pages/manage/user/user/user"
+		},{//管理员
+            "path" : "pages/manage/user/admin/admin"
+        }
+        ,{//管理员-创建、修改
+            "path" : "pages/manage/user/admin/edit"
+        }
+        ,{//管理员-详情
+            "path" : "pages/manage/user/admin/detail"
+        }
+        ,{//最近注册
+            "path" : "pages/manage/user/latelyregister/latelyregister"
+        }
+        ,{//最近注册-详情
+            "path" : "pages/manage/user/latelyregister/detail"
+        },
+        {//最近注册-登录记录
+            "path" : "pages/manage/user/latelyregister/loginrecord"
+        }
+        ,{//最近登录
+            "path" : "pages/manage/user/latelylogin/latelylogin"
+        }
+        ,{//最近登录--详情
+            "path" : "pages/manage/user/latelylogin/detail"
+        }
+        ,{//文章--列表
+            "path" : "pages/manage/article/article/article"
+        }
+        ,{//文章--审核
+            "path" : "pages/manage/article/article/examine"
+        }
+        ,{//文章--详情
+            "path" : "pages/manage/article/article/detail"
+        }
+        ,{//报名--列表
+            "path" : "pages/manage/article/signup/signup"
+        }
+        ,{//报名--详情、审核
+            "path" : "pages/manage/article/signup/detail"
+        }
+        ,{//文章回收站-列表
+            "path" : "pages/manage/article/recycle/recycle"
+        }
+        ,{//职位--列表
+            "path" : "pages/manage/recruit/work/work"
+        }
+        ,{//职位--已投递
+            "path" : "pages/manage/recruit/work/booking"
+        }
+        ,{//职位--待面试
+            "path" : "pages/manage/recruit/work/interview"
+        }
+        ,{//职位--创建
+            "path" : "pages/manage/recruit/work/edit"
+        }
+        ,{//投递记录
+            "path" : "pages/manage/recruit/booking/booking"
+        }
+        ,{//投递记录-详情
+            "path" : "pages/manage/recruit/booking/detail"
+        }
+        ,{//工作地点
+            "path" : "pages/manage/recruit/address/address"
+        }
+        ,{//工作地点-创建
+            "path" : "pages/manage/recruit/address/create"
+        }
+        ,{//工作地点-编辑
+            "path" : "pages/manage/recruit/address/edit"
+        }
+        ,{//职位回收站-列表
+            "path" : "pages/manage/recruit/recycle/recycle"
+		}
+        ,{//基本配置
+            "path" : "pages/manage/system/basic/basic"
+        }
+        ,{//banner
+            "path" : "pages/manage/system/banner/banner"
+        }
+        ,{//banner-详情
+            "path" : "pages/manage/system/banner/detail"
+        }
+        ,{//banner-编辑
+            "path" : "pages/manage/system/banner/edit"
+        }
+        ,{//现场招聘
+            "path" : "pages/manage/recruit/venue/venue"
+        }
+        ,{//现场招聘--编辑
+            "path" : "pages/manage/recruit/venue/edit"
+        }
+        ,{//现场招聘--审核
+            "path" : "pages/manage/recruit/venue/examine"
+        }
+        ,{//现场招聘--详情
+            "path" : "pages/manage/recruit/venue/detail",
+            "style" : {}
+        }
+        ,{//现场招聘--报名
+            "path" : "pages/manage/recruit/venue/signup"
+        }
+        ,{//课程--列表
+            "path" : "pages/manage/train/course/course"
+        }
+        ,{//课程--审核
+            "path" : "pages/manage/train/course/examine"
+        }
+        ,{//课程--用户报表
+            "path" : "pages/manage/train/course/userReport"
+        }
+        ,{//课程--用户报表--学习报表
+            "path" : "pages/manage/train/course/studyReport"
+        }
+        ,{//课程--章节
+            "path" : "pages/manage/train/course/chapter"
+        }
+        ,{//课程--用户列表
+            "path" : "pages/manage/train/course/user"
+        }
+        ,{//课程--添加报名用户
+            "path" : "pages/manage/train/course/addUser"
+        }
+        ,{//课程回收站--列表
+            "path" : "pages/manage/train/courseRecycle/courseRecycle"
+        }
+        ,{//培训管理-列表
+            "path" : "pages/manage/train/train/train"
+        }
+        ,{//培训管理--审核
+            "path" : "pages/manage/train/train/examine"
+        }
+        ,{//培训管理--用户报表
+            "path" : "pages/manage/train/train/userReport"
+        }
+        ,{//培训管理--资源报表
+            "path" : "pages/manage/train/train/resourceReport"
+        }
+        ,{//培训管理--学习报表
+            "path" : "pages/manage/train/train/studyReport"
+        }
+        ,{//培训管理--用户列表
+            "path" : "pages/manage/train/train/user"
+        }
+        ,{//培训管理--添加报名用户
+            "path" : "pages/manage/train/train/addUser"
+        }
+        ,{//培训管理--培训课程
+            "path" : "pages/manage/train/train/course"
+        }
+        ,{//培训管理--添加培训课程
+            "path" : "pages/manage/train/train/addCourse"
+        }
+        ,{//培训管理--创建/编辑培训
+            "path" : "pages/manage/train/train/edit"
+        }
+        ,{//培训回收站--列表
+            "path" : "pages/manage/train/trainRecycle/trainRecycle"
+        }
+        ,{//失保培训
+            "path" : "pages/manage/train/trainClass/trainClass"
+        }
+        ,{//失保培训--申请考试
+            "path" : "pages/manage/train/trainClass/applyExam"
+        }
+        ,{//失保培训--培训专业详情
+            "path" : "pages/manage/train/trainClass/classDetail"
+        }
+        ,{//失保培训--学员列表
+            "path" : "pages/manage/train/trainClass/user"
+        }
+        ,{//失保培训--学员详情
+            "path" : "pages/manage/train/trainClass/userDetail"
+        }
+        ,{//直播-列表
+            "path" : "pages/manage/live/live/live"
+        }
+        ,{//直播-审核
+            "path" : "pages/manage/live/live/examine"
+        }
+        ,{//直播-创建、编辑
+            "path" : "pages/manage/live/live/editLive"
+        }
+        ,{//直播-用户报表
+            "path" : "pages/manage/live/live/userReport"
+        }
+        ,{//直播-用户详情(报表、报名)
+            "path" : "pages/manage/live/live/userDetail"
+        }
+        ,{//直播-观看记录
+            "path" : "pages/manage/live/live/watchRecord"
+        }
+        ,{//直播-直播章节
+            "path" : "pages/manage/live/live/chapter"
+        }
+        ,{//直播-直播章节-创建、编辑
+            "path" : "pages/manage/live/live/editChapter"
+        }
+        ,{//直播-直播章节-录播列表
+            "path" : "pages/manage/live/live/videotape"
+        }
+        ,{//直播-直播章节-章节详情
+            "path" : "pages/manage/live/live/chapterDetail"
+        }
+        ,{//直播-报名用户
+            "path" : "pages/manage/live/live/singupUser"
+        }
+        ,{//直播-报名用户-添加用户
+            "path" : "pages/manage/live/live/addUser"
+        }
+        ,{//直播分类
+            "path" : "pages/manage/live/category/category"
+        }
+        ,{//直播分类-编辑、创建
+            "path" : "pages/manage/live/category/edit"
+        }
+        ,{//直播配置
+            "path" : "pages/manage/live/config/config"
+        }
+        ,{//直播回收站
+            "path" : "pages/manage/live/recycle/recycle"
+        }
+        ,{//考试管理--列表
+            "path" : "pages/manage/exam/exam/exam"
+        }
+        ,{//考试管理--审核
+            "path" : "pages/manage/exam/exam/examine"
+        }
+        ,{//考试管理--用户报表
+            "path" : "pages/manage/exam/exam/userReport"
+        }
+        ,{//考试管理--用户报表-考试记录
+            "path" : "pages/manage/exam/exam/examRecord"
+        }
+        ,{//考试管理--报名用户
+            "path" : "pages/manage/exam/exam/user"
+        }
+        ,{//考试管理--报名用户
+            "path" : "pages/manage/exam/exam/addUser"
+        },
+		{//考试管理--编辑、创建
+			"path":"pages/manage/exam/exam/edit"
+		}
+        ,{//考试分类
+            "path" : "pages/manage/exam/category/category"
+        }
+        ,{//考试分类-编辑、创建
+            "path" : "pages/manage/exam/category/edit"
+        }
+        ,{//题库管理
+            "path" : "pages/manage/exam/bank/bank"
+        }
+        ,{//题库管理-题库详情
+            "path" : "pages/manage/exam/bank/bankDetail"
+        }
+        ,{//题库管理-创建、编辑
+            "path" : "pages/manage/exam/bank/editBank"
+        }
+        ,{//题库管理-组卷
+            "path" : "pages/manage/exam/bank/tactics"
+        }
+        ,{//题库管理-试题列表
+            "path" : "pages/manage/exam/bank/question"
+        }
+        ,{//题库管理-试题详情
+            "path" : "pages/manage/exam/bank/questionDetail"
+        }
+        ,{//题库管理-查看试卷
+            "path" : "pages/manage/exam/bank/testPaper"
+        }
+        ,{//题库管理-查看试卷试题
+            "path" : "pages/manage/exam/bank/testPaperDetail"
+        }
+        ,{//知识点管理
+            "path" : "pages/manage/exam/point/point"
+        }
+        ,{//知识点管理——创建、编辑
+            "path" : "pages/manage/exam/point/edit"
+        }
+        // ,{//试题管理(临时)
+        //     "path" : "pages/manage/exam/temporaryQuestion/temporaryQuestion"
+        // }
+        // ,{//试题管理(临时)--编辑、创建
+        //     "path" : "pages/manage/exam/temporaryQuestion/edit"
+        // }
+        // ,{//试题管理(临时)--审核
+        //     "path" : "pages/manage/exam/temporaryQuestion/examine"
+        // }
+        ,{//考场地址
+            "path" : "pages/manage/exam/address/address"
+        }
+        ,{//考场地址--创建、编辑
+            "path" : "pages/manage/exam/address/edit"
+        }
+        ,{//考试配置
+            "path" : "pages/manage/exam/config/config"
+        }
+        ,{//考试回收站
+            "path" : "pages/manage/exam/recycle/recycle"
+        }
+        ,{//编辑用户信息
+            "path" : "pages/mine/edituser"
+        }
+        ,{//身份认证
+            "path" : "pages/mine/selectidauth"
+        }
+        ,{//身份认证详情
+            "path" : "pages/mine/idauth"
+        }
+        ,{//组织详情
+            "path" : "pages/detail/orgDetail"
+        }
+        ,{//职位详情
+            "path" : "pages/detail/workDetail"
+        }
+        ,{//课程详情
+            "path" : "pages/detail/courseDetail"
+        }
+        ,{//考试详情
+            "path" : "pages/detail/examDetail"
+        }
+        ,{//直播详情
+            "path" : "pages/detail/liveDetail"
+        }
+        ,{//培训详情
+            "path" : "pages/detail/trainDetail"
+        }
+        ,{//招聘会详情
+            "path" : "pages/detail/venueDetail"
+        }
+        ,{//设置首页
+            "path" : "pages/mine/setting/index"
+        }
+        ,{//账户与安全
+            "path" : "pages/mine/setting/safety"
+        }
+        ,{// 手机号码
+            "path" : "pages/mine/setting/phone"
+        }
+        ,{//账户与安全
+            "path" : "pages/mine/setting/email"
+        }
+        ,{//电子邮箱
+            "path" : "pages/mine/setting/password"
+        }
+        ,{//登录密码
+            "path" : "pages/mine/setting/third"
+        }
+        ,{//关于我们
+            "path" : "pages/mine/setting/about"
+        }
+        ,{//常见问题
+            "path" : "pages/mine/setting/problem/list"
+        },{//常见问题详情
+            "path" : "pages/mine/setting/problem/detail"
+        },{//建议反馈
+            "path" : "pages/mine/setting/opinion"
+        },{//个人简历
+            "path" : "pages/manage/recruit/booking/notes"
+        }
+        ,{//企业注册
+            "path" : "pages/login/orgReg"
+        }
+        ,{//企业注册--填写手机号
+            "path" : "pages/login/getPhone"
+        }
+        ,{//证书申请
+            "path" : "pages/manage/certificate/apply/apply"
+        }
+        ,{//证书申请--申请考试
+            "path" : "pages/manage/certificate/apply/applyExam"
+        }
+        ,{//证书申请--详情
+            "path" : "pages/manage/certificate/apply/classDetail"
+        }
+        ,{//证书申请--详情
+            "path" : "pages/manage/certificate/apply/userDetail"
+        }
+        ,{//证书申请--学员
+            "path" : "pages/manage/certificate/apply/user"
+        }
+        ,{//证书打印
+            "path" : "pages/manage/certificate/print/print"
+        }
+        ,{//证书申请--详情
+            "path" : "pages/manage/certificate/print/classDetail"
+        }
+        ,{//证书申请--学员-身份录入
+            "path" : "pages/manage/certificate/apply/inputIdentity"
+        }
+        ,{//部门管理--列表
+            "path" : "pages/manage/organization/department/department"
+        }
+        ,{//部门管理--编辑
+            "path" : "pages/manage/organization/department/edit"
+        }
+        ,{//岗位管理-列表
+            "path" : "pages/manage/organization/post/post"
+        }
+        ,{//岗位管理-编辑-创建
+            "path" : "pages/manage/organization/post/edit"
+        }
+        // ,{//企业注册--列表
+        //     "path" : "pages/manage/organization/register/register"
+        // }
+        ,{//文章分类--列表
+            "path" : "pages/manage/article/category/category"
+        }
+        ,{//文章分类--创建、删除
+            "path" : "pages/manage/article/category/edit"
+        }
+        ,{//课程分类--列表
+            "path" : "pages/manage/train/courseCategory/courseCategory"
+        }
+        ,{//课程分类--创建、删除
+            "path" : "pages/manage/train/courseCategory/edit"
+        }
+        ,{//培训分类--列表
+            "path" : "pages/manage/train/trainCategory/trainCategory"
+        }
+        ,{//培训分类--创建、删除
+            "path" : "pages/manage/train/trainCategory/edit"
+        }
+        ,{//培训配置
+            "path" : "pages/manage/train/trainConfig/config"
+        }
+    ],
+	"globalStyle": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#42b983",
+        "navigationBarTitleText": "管理中心",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#ededed",
+		"backgroundColorBottom":"#ededed",
+		"backgroundColorTop":"#ededed",
+        "onReachBottomDistance": 50,
+        "titleNView": false
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#42B983",
+		"backgroundColor": "#F5F5F5",
+		"list": [
+			{
+				"pagePath": "pages/statistics/statistics",
+				"text": "统计",
+				"iconPath": "./static/img/tabBar/icon-home.png",
+				"selectedIconPath": "./static/img/tabBar/icon-home-choose.png"
+			},
+			{
+				"pagePath": "pages/manage/manage",
+				"text": "管理",
+				"iconPath": "./static/img/tabBar/icon-manage.png",
+				"selectedIconPath": "./static/img/tabBar/icon-manage-choose.png"
+			},
+			// {
+			// 	"pagePath": "pages/find/find",
+			// 	"text": "发现",
+			// 	"iconPath": "./static/img/tabBar/icon-find.png",
+			// 	"selectedIconPath": "./static/img/tabBar/icon-find-choose.png"
+			// },
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "./static/img/tabBar/icon-mine.png",
+				"selectedIconPath": "./static/img/tabBar/icon-mine-choose.png"
+			}
+		]
+	},
+	"condition":[{
+		"current":0,
+		"list":[
+			{
+				"name":"recycle",
+				"path":"pages/manage/article/recycle/recycle"
+			}
+		]
+	}]
+}
